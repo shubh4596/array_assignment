@@ -292,6 +292,38 @@ console.log(total);
 
 //----------------------------------------------------------------------------
 
+//indexOf method
+
+let products = ["Dango Dapper wallet" , "Ring wifi doorbell" , "sonos speaker" , 
+ "outdoor pizza oven", "smart phone sanitizer" , "mini expresso"];
+ console.log(products.indexOf("sonos speaker"));
+
+
+ let numbers = [1,2,8,3,6,7,2,1,4,2,5,9];
+ console.log(numbers.lastIndexOf(2));
+
+//--------------------------------------------------------------------------
+
+//splice method
+
+let products = ["Dango Dapper wallet" , "Ring wifi doorbell" , "sonos speaker" , 
+"outdoor pizza oven", "smart phone sanitizer" , "mini expresso"];
+
+let modifiedProducts = products.splice(2,2,"microsoft tablet" , "language translator");
+console.log(modifiedProducts);
+console.log(products);
+
+
+//----------------------------------------------------------------------------
+
+// slice
+
+let users = ["ted" , "tim" , "tom" , "sam" , "sor" , "sud"];
+console.log(users.slice(1,3));
+
+
+
+
 
 
 
